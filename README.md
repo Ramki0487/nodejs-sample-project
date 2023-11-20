@@ -16,6 +16,8 @@ $ npm start
 ```
 ## Deploying using Docker compose
 
+Run the below docker compose commad to build the app.
+
 docker-compose up
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
