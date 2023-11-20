@@ -14,8 +14,36 @@ $ cd node-js-getting-started
 $ npm install
 $ npm start
 ```
+## Deploying using Docker compose
+
+docker-compose up
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+http://localhost:5000/
+
+will deploy the sample nodejs application and the monitoring tools assocaited with it.
+
+Loki,Promtail and Grafana
+
+Access the monitoring UI using the below links
+
+Loki:
+
+Get the metrics of Loki by below link
+
+http://localhost:3100/metrics
+
+Status of Loki accessibility and connectivity using below
+
+http://localhost:3100/ready
+
+Grafana:
+
+http://localhost:3000/
+
+
+
 
 ## Deploying to Heroku
 
